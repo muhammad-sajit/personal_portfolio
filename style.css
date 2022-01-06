@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+}
+/* common class start */
+.flex-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+.half-width {
+  width: 50%;
+}
+.orange-color {
+  color: orange;
+}
+.black-color {
+  color: black;
+}
+.equal-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.fourty-percent {
+  width: 40%;
+}
+.sixty-percent {
+  width: 60%;
+}
+
+/* common class stop */
+
+/* mission start */
+.mission {
+  width: 90%;
+  padding: 2% 0;
+}
+.mission-left{
+  padding-top: 10%;
+}
+.mission-left #mission-aim {
+  border-left: 4px solid;
+  border-image: linear-gradient(orange, blue);
+  border-image-slice: 1;
+  padding-left: 1%;
+  
+  line-height: 35px;
+}
+.mission-left h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.mission-left p {
+  padding-right: 10%;
+}
+.mission-left a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2% 4%;
+  border-radius: 10px;
+  color: white;
+  background-image: linear-gradient(orange, gray);
+}
+.mission-right{
+  text-align: right;
+}
+.mission-right img {
+  width: 80%;
+  margin: 0;
+}
+/* mission stop */
+
+/* strategy start */
+.strategy {
+  width: 90%;
+  margin-bottom: 50px;
+}
+.strategy h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+}
+#vission {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.equal-width {
+  width: 31.9%;
+  border-radius: 15px;
+}
+.equal-width img {
+  width: 50%;
+}
+.vission-left {
+  margin-right: 1%;
+  padding: 2% 2%;
+  background-color: beige;
+}
+
+.vission-middle {
+  margin: 0 1%;
+  padding: 2% 2%;
+  background-color: azure;
+}
+.vission-right {
+  margin-left: 1%;
+  padding: 2% 2%;
+  background-color: antiquewhite;
+}
+/* strategy stop */
+
+/* development start */
+.development {
+  width: 100%;
+  background-image: url(images/shapes/shape-1.png);
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 18%;
+  padding: 2% 5%;
+}
+.development img {
+  width: 80%;
+}
+.development-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.development-right a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2% 4%;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(orange, red);
+}
+/* development stop */
+
+/* community start */
+.community {
+  width: 100%;
+  background-image: url(images/shapes/shape-1.png);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 18%;
+  padding: 2% 5% 5% 5%;
+  
+}
+.community-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.community-left a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2% 4%;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(orange, red);
+}
+.community-right {
+  text-align: right;
+}
+.community-right img {
+  width: 80%;
+}
+/* community stop */
+
+/* skills start */
+.skills {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.skills h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 3%;
+}
+#technologies {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1%;
+  width: 100%;
+}
+.tec {
+  height: 24.25%;
+  width: 24.25%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px grey;
+  background-image: linear-gradient(orange, tomato);
+}
+.tec h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.tec p {
+  color: white;
+}
+/* skills stop */
+
+/* footer start */
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 5%;
+  align-items: center;
+  padding: 3%;
+  color: white;
+  background-color: black;
+}
+
+footer h1 {
+  font-size: 50px;
+  font-family: 'The Nautigal', cursive;
+}
+
+/* footer stop */
